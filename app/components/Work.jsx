@@ -1,7 +1,6 @@
 import { assets, workData } from '@/assets/assets';
 import Image from 'next/image';
-import React from 'react'
-import {motion} from 'motion/react'
+import { motion } from 'motion/react';
 
 const Work = ({isDarkMode}) => {
   return (
@@ -60,7 +59,9 @@ const Work = ({isDarkMode}) => {
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
               <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-500 transition">
-                <Image src={assets.send_icon} alt="icon" className="w-5" />
+                <a href={project.link} target='_blank'>
+                  <Image src={assets.send_icon} alt="icon" className="w-5" />
+                </a>
               </div>
             </div>
           </motion.div>
@@ -69,9 +70,9 @@ const Work = ({isDarkMode}) => {
 
       <motion.a
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1}}
+        whileInView={{ opacity: 1 }}
         transition={{ duration: 1.1, delay: 0.5 }}
-        href=""
+        href="#"
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-600 rounded-full px-10 py-3 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
         Show More{" "}

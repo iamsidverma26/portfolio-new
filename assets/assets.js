@@ -77,31 +77,35 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-]
+  {
+    title: "Me-Chat [Chat-web-app]",
+    description: "MERN Stack",
+    bgImage: "/work-1.png",
+    link: "https://me-chat-kwg0.onrender.com/"
+  },
+  {
+    title: "Blog Application",
+    description: "MERN Stack",
+    bgImage: "/work-2.png",
+    link: "https://test-blog-beta-sage.vercel.app/"
+  },
+  {
+    title: "QnA Website",
+    description: "MERN Stack",
+    bgImage: "/work-3.png",
+    link: "https://github.com/iamsidverma26/asknexus-appwrite"
+  },
+  {
+    title: "To-Do (Persistable Storage)",
+    description: "Basic MERN",
+    bgImage: "/work-4.png",
+    link: "https://todo-project-virid.vercel.app/"
+  }
+];
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.web_icon, title: 'Data Structures and Algo.', description: 'Learning Algorithms and Code logic build basis of programming...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
